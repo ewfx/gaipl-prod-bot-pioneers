@@ -1,5 +1,11 @@
-Replace this file with files that you would like to use for your demo. This may include
+This demo video will showcase the key features of the Gen AI enabled Integrated Platform Environment, including incident tracking, chatbot support, telemetry, and metrics visualization.
 
-- A presentation/deck in pdf or pptx format
-- A demo video (screen capture) in mp4 or other popular video formats
-- Any other document describing your solution (in pdf or md format)
+Features in the project:
+
+i. Home Page (Shows incidents + chatbot)
+
+ii. Incident Management (List, filtering, pagination)
+
+iii. Chatbot (Ask IT support questions)
+
+iv. Telemetry Dashboard (Show incident trends & API metrics)
