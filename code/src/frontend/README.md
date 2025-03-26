@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+The frontend is built with React.js and Material-UI, providing a user-friendly interface for incident management, chatbot support, and telemetry visualization.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📌 Features
 
-## Available Scripts
+✅ Incident Management Dashboard (List, Filtering, Pagination)
 
-In the project directory, you can run:
+✅ Integrated Chatbot for IT Support Queries
 
-### `npm start`
+✅ Real-time API Metrics & Telemetry
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Dynamic Charts for Incident Trends
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Material-UI Design for a Clean Interface
 
-### `npm test`
+Frontend Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📁 frontend
 
-### `npm run build`
+│── 📂 src
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+│   │── 📂 pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+│   │   ├── Home.js        # Home page (incidents + chatbot)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+|   |   ├── Chatbot.js     # Floating chatbot UI
 
-### `npm run eject`
+│   │   ├── Incidents.js   # Incident list with filtering & pagination
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+│   │   ├── Telemetry.js   # API metrics and incident trends
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+│   │── 📂 components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+│   │   ├── Layout.js      # Navbar layout
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+│   │── App.js             # Main app routing
 
-## Learn More
+│   │── index.js           # React entry point
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+│── package.json           # Frontend dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+│── README.md              # Frontend documentation
 
-### Code Splitting
+📌 Available Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🔹 Home Page (/)
 
-### Analyzing the Bundle Size
+📌 Displays incidents list
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📌 Integrated chatbot at bottom-right corner
 
-### Making a Progressive Web App
+🔹 Incidents Page (/incidents)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📌 List of IT Incidents with details
 
-### Advanced Configuration
+📌 Filtering by column & search functionality
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📌 Pagination to navigate large datasets
 
-### Deployment
+🔹 Chatbot 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📌  Answers for IT issues
 
-### `npm run build` fails to minify
+🔹 Telemetry Page (/telemetry)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📊 Incident Trends Chart (Created vs Resolved)
+
+📈 Incident Categories Chart
+
+🔢 API Usage Metrics Table
